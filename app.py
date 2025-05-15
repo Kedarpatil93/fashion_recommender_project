@@ -46,7 +46,7 @@ feature_list, filenames = load_data()
 model = load_model()
 neighbors = load_neighbors(feature_list)
 
-uploaded_file = st.file_uploader("", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("")
 
 if uploaded_file is not None:
     st.markdown("##### Uploaded Image:")
